@@ -7,3 +7,6 @@
 [submodule "legacy/RAYRAW-Soft"]
 	path = legacy/RAYRAW-Soft
 	url = https://github.com/spadi-alliance/rayraw-soft.git
+[submodule "legacy/SAMIDARE-WebUI"]
+	path = legacy/SAMIDARE-WebUI
+	url = https://github.com/FumiHubCNS/samidaq_webui.git
