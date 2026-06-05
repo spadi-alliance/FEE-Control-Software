@@ -1,0 +1,6 @@
+{
+    "Name": "STAG Board v2",
+    "ASIC": "AGASA_v3",
+    "FPGA": "Artix_Ultrascale_Plus",
+    "input_channels": 64
+}

@@ -1,0 +1,82 @@
+{ "generalParameters": {
+    "numberOfChannels": 16
+},
+  "channelParameters": [
+    {
+      "name": "analog_output",
+      "type": "boolean",
+      "defaultValue": false,
+      "description": "Analog Output"
+    },
+    {
+      "name": "polarity",
+      "type": "string",
+      "defaultValue": "normal",
+      "options": ["normal", "inverted"],
+      "description": "ToT Polarity"
+    },
+    {
+      "name": "testpulse",
+      "type": "boolean",
+      "defaultValue": false,
+      "description": "Inject Test Pulse"
+    },
+    {
+      "name": "threshold",
+      "type": "number",
+      "defaultValue": 1.65,
+      "min": -1.65,
+      "max": 1.65,
+      "step": 0.0032,
+      "description": "Comp. Threshold"
+    },
+    {
+      "name": "csa_res",
+      "type": "number",
+      "defaultValue": 250,
+      "options": [250, 500, 750, 1000],
+      "unit": "kΩ",
+      "description": "CSA Resistance"
+    },
+    {
+      "name": "pzc_res",
+      "type": "number",
+      "defaultValue": 250,
+      "options": [250, 500, 750, 1000],
+      "unit": "kΩ",
+      "description": "PZC Resistance"
+    },
+    {
+      "name": "shp_res",
+      "type": "number",
+      "defaultValue": 15,
+      "options": [15, 30, 45, 60],
+      "unit": "kΩ",
+      "description": "SHP Resistance"
+    },
+    {
+      "name": "csa_cap",
+      "type": "number",
+      "defaultValue": 250,
+      "options": [250, 500, 750, 1000, 1250, 1500, 1750, 2000],
+      "unit": "fF",
+      "description": "CSA Capacitance"
+    },
+    {
+      "name": "pzc_cap",
+      "type": "number",
+      "defaultValue": 250,
+      "options": [250, 500, 750, 1000, 1250, 1500, 1750, 2000],
+      "unit": "fF",
+      "description": "PZC Capacitance"
+    },
+    {
+      "name": "shp_cap",
+      "type": "number",
+      "defaultValue": 250,
+      "options": [250, 500, 750, 1000, 1250, 1500, 1750, 2000],
+      "unit": "fF",
+      "description": "SHP Capacitance"
+    }
+  ]
+}
